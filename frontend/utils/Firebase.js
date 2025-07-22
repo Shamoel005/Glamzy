@@ -1,16 +1,21 @@
-import {getAuth, GoogleAuthProvider} from "firebase/auth"
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_APIKEY ,
-  authDomain: "loginonecart.firebaseapp.com",
-  projectId: "loginonecart",
-  storageBucket: "loginonecart.firebasestorage.app",
-  messagingSenderId: "242165258894",
-  appId: "1:242165258894:web:0155a2ced93e20073247df"
+  apiKey: "AIzaSyBNolltB4cLY_bLD4bW9Rx7t3JAA9qrErs",
+  authDomain: "login-glamzy.firebaseapp.com",
+  projectId: "login-glamzy",
+  storageBucket: "login-glamzy.firebasestorage.app",
+  messagingSenderId: "224030323155",
+  appId: "1:224030323155:web:4ad74fe3f80ba3c568ff26",
+  measurementId: "G-KQV3LKVTQP"
 };
+
+// Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const auth = getAuth(app)
-const provider = new GoogleAuthProvider()
-
-
-export {auth , provider}
+const analytics = getAnalytics(app);
