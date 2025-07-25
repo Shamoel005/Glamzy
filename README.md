@@ -1,8 +1,4 @@
-Here is the **final, polished `README.md`** file for your Glamzy project — clear, professional, and recruiter-friendly:
 
----
-
-````markdown
 # 👗 Glamzy – AI-Powered Fashion E-commerce Platform
 
 **Glamzy** is a full-stack fashion e-commerce website built using the **MERN stack**. It allows users to shop for men's, women's, and kids' clothing with the help of an integrated **AI chatbot** and **voice-controlled assistant** for smooth navigation and smart interaction. A secured **admin dashboard** helps manage products, users, and orders.
