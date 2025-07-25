@@ -29,7 +29,7 @@
 
 **Frontend:** React.js, Tailwind CSS, React Router, Axios, Toastify  
 **Backend:** Node.js, Express.js, MongoDB, Mongoose, JWT  
-**AI & Auth:** OpenAI API, Web Speech API, Firebase Google OAuth
+**AI & Auth:**  Web Speech API, Firebase Google OAuth
 
 ---
 
