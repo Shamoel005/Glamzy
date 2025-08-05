@@ -20,12 +20,36 @@ function Footer() {
                         <p className='text-[19px] md:text-[20px] text-[#1e2223] font-sans '>COMPANY</p>
 
                     </div>
-                    <ul>
-                         <li className='text-[15px] text-[#1e2223] hidden md:block cursor-pointer'>Home</li>
-                        <li className='text-[15px] text-[#1e2223] cursor-pointer '>About us</li>
-                        <li className='text-[15px] text-[#1e2223] hidden md:block cursor-pointer'>Delivery</li>
-                        <li className='text-[15px] text-[#1e2223] cursor-pointer'>Privacy Policy</li>
-                    </ul>
+
+
+              
+              
+                   <ul>
+                   <li
+                    className='text-[15px] text-[#1e2223] hidden md:block cursor-pointer'
+                    onClick={() => window.location.href = "https://glamzy-frontend.onrender.com/collection"}
+                    >
+                    Home
+                    </li>
+  
+                    <li
+                    className='text-[15px] text-[#1e2223] cursor-pointer'
+                    onClick={() => window.location.href = "https://glamzy-frontend.onrender.com/about"}
+                    >
+                    About us
+                    </li>
+  
+                   <li
+                   className='text-[15px] text-[#1e2223] hidden md:block cursor-pointer'
+                  onClick={() => window.location.href = "https://glamzy-frontend.onrender.com/contact"}
+                  >
+                  Contact
+                  </li>
+                 </ul>
+
+
+
+              
                 </div>
 
                 <div className='md:w-[25%] w-[40%]  h-[100%] flex items-center justify-center flex-col text-center '>
