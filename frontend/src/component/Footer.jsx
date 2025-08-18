@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from "../assets/logo.png"
+import { useNavigate } from 'react-router-dom' //commit
 function Footer() {
+  let navigate=useNavigate() //commit
   return (
     <div className='w-[100%] md:h-[36vh] h-[21vh] mb-[77px] md:mb-[0px]'>
         <div className='w-[100%] md:h-[30vh] h-[15vh]  md:mb-[0px] bg-[#dbfcfcec] flex items-center justify-center md:px-[50px] px-[5px]'>
@@ -27,21 +29,21 @@ function Footer() {
                    <ul>
                    <li
                     className='text-[15px] text-[#1e2223] hidden md:block cursor-pointer'
-                    onClick={() => window.location.href = "https://glamzy-frontend.onrender.com/collection"}
+                    onClick={()=>navigate("/home")} //commit
                     >
                     Home
                     </li>
   
                     <li
                     className='text-[15px] text-[#1e2223] cursor-pointer'
-                    onClick={() => window.location.href = "https://glamzy-frontend.onrender.com/about"}
+                    onClick={()=>navigate("/about")} //commit
                     >
                     About us
                     </li>
   
                    <li
                    className='text-[15px] text-[#1e2223] hidden md:block cursor-pointer'
-                  onClick={() => window.location.href = "https://glamzy-frontend.onrender.com/contact"}
+                   onClick={()=>navigate("/contact")} //commit
                   >
                   Contact
                   </li>
