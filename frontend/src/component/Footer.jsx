@@ -29,7 +29,7 @@ function Footer() {
                    <ul>
                    <li
                     className='text-[15px] text-[#1e2223] hidden md:block cursor-pointer'
-                    onClick={()=>navigate("/nav")} //commit
+                    onClick={()=>navigate("/")} //commit
                     >
                     Home
                     </li>
